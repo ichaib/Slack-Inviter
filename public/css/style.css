@@ -107,10 +107,10 @@ min-width: 200px;
 
 @media only screen and (max-device-width: 420px)  {
 	.information{
-		width: 100%;
+		width: 50%;
 	}
 	.form{
-		width: 100%;
+		width: 50%;
 	}
 
 	.field {
