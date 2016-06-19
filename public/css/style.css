@@ -7,9 +7,9 @@ html,body{
 margin:0;
 padding:0;
 font-family: 'Open Sans', sans-serif;
-background: #fff url(../images/bg.jpg) center top no-repeat;
+background: #333333 url(../images/obp-bg.png) center top no-repeat;
 background-size: cover;
-height: 100%;
+height: 10%;
 width: 100%;
 }
 
@@ -35,14 +35,13 @@ float: left;
 
 .header{
 	margin-top: 160px;
-	margin-bottom: 40px;
 }
 
 
 h1{
 font-family: 'Open Sans', sans-serif;
 color: #fff;
-text-align: center;
+text-align: left;
 font-size: 50px;
 font-weight: 300;
 margin: 0 0 10px 0;
@@ -55,9 +54,9 @@ font-weight: 700;
 }
 
 h2{
-	text-align: center;
-	font-weight: 300;
+	font-weight: 500;
 	font-size: 20px;
+	padding: 10px;
 		color: #ffffff;
 
 }
@@ -69,8 +68,7 @@ h2 strong{
 
 
 .information{
-width: 480px;
-padding-top: 35px;
+width: 1080px;
 margin: 0 auto;
 }
 
@@ -93,7 +91,7 @@ display: block;
 }
 
 .field{
-background: url(../images/field.png) repeat;
+background-color: #ffffff;
 width: 448px;
 -webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;
 border: none;
@@ -102,8 +100,11 @@ font-family: 'Lato', sans-serif;
 font-size: 16px;
 color: #ffffff;
 float: left;
+text-align: left;
 padding: 15px;
 margin-bottom: 15px;
+color: #333333;
+min-width: 200px;
 }
 
 @media only screen and (max-device-width: 420px)  {
@@ -118,19 +119,21 @@ margin-bottom: 15px;
 		width: 90%;
 		padding-left: 5%;
 		padding-right: 5%;
+		color: #333333;
 	}
 }
 
 .submit{
-padding: 3px 10px;
+padding: 4px 16px 10px 15px;
 -webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;
 margin-left: -78px;
-margin-top: 12px;
-background: #ffffff;
+margin-top: 8px;
+background: #333333;
 border: none;
 float: left;
 font-family: 'Lato', sans-serif;
 font-size: 14px;
+color:#ffffff;
 font-weight: bold;
 cursor: pointer;
 }
