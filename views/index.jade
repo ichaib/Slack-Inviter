@@ -9,13 +9,9 @@ html
   body
     #wrapper
       .main
-        .header
-          h1
-            strong #{community}
-          <br />
-          h2 #{__('HEADER', community)}
         .content
           .information
+            h2 #{__('HEADER', community)}
             form(method="POST", action="/invite")#join-form.form
               input(type="email", name="email", placeholder="#{__('ENTER_EMAIL')}")#slack-email.field
               if tokenRequired
