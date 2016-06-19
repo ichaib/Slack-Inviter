@@ -20,9 +20,3 @@ module.exports = {
 };
 
 
-inviteToken: "null",
-locale: "en",
-slackUrl: 'openbankproject.slack.com',
-slacktoken=xoxp-12198044771-12200760199-52268949477-2a3e8fc491'
-
-heroku config:set community=''
